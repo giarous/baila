@@ -17,19 +17,19 @@ const App = createAppContainer(createStackNavigator({
 
   Start: { 
     screen: StartScreen, 
-    navigationOptions: { title: "Cure for Maska's insomnia :D" }
+    navigationOptions: { title: "Cure for insomnia :D" }
   },
   Home: { 
     screen: Home, 
-    navigationOptions: { title: "Cure for Maska's insomnia :D" }
+    navigationOptions: { title: "Cure for insomnia :D" }
   },
   Settings: {
     screen: CardSelection,
-    navigationOptions: {title: "Chooe cards" }
+    navigationOptions: {title: "Choose cards" }
   },
   Descriptions: {
     screen: DescriptionComponent,
-    navigationOptions: {title: "Chooe cards" }
+    navigationOptions: {title: "Choose cards" }
   },
   NewGame: { 
     screen: DeckComponent, 

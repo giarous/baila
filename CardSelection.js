@@ -9,10 +9,8 @@ import { CheckBox } from 'react-native-elements';
 import CheckboxFormX from 'react-native-checkbox-form';
 import { ScrollView } from 'react-native-gesture-handler';
 import {photoCards}  from './constants';
-//import {cardsData}  from './constants';
-//import cardsData  from './constants/cardsInformation.json';
 
-//const newData = cardsData;
+
 const { height } = Dimensions.get('window')
 const image_width = (height-150)*2/3
 const image_height = (height-150)
@@ -33,16 +31,8 @@ export default class CardSelection extends Component<Props> {
         require('./assets/unchecked.png')],
       
     }
-    //let icon = this.state.data[0].state ? require('../assets/waterfall.jpg') : require('../assets/waterfall.jpg');
-    //this._onChange= this._onChange.bind(this);
   }
     componentDidMount() {
-        //this.setState({ data: newData})
-        //f(!this.state.data[0].state){
-          //this.setState({image_source: this.state.image_source_arr[1]});
-        //} 
-        //else
-        //{this.setState({image_source: this.state.image_source_arr[4]});}
       };
 
       buttonPressed2= (index) => {
@@ -71,7 +61,6 @@ export default class CardSelection extends Component<Props> {
   };
   
   render() {
-    //const { params } = this.props.navigation.state;
     return (
       <View style={styles.container}>
         <View style={styles.titleContainer}>
@@ -249,8 +238,6 @@ export default class CardSelection extends Component<Props> {
         </TouchableOpacity>
         
       </View>
-        
-        
      
       </View>
       <TouchableHighlight
@@ -263,9 +250,7 @@ export default class CardSelection extends Component<Props> {
                           Go Back
                         </Text>
           </TouchableHighlight>
-       
 
-        
       </View>
       
     );

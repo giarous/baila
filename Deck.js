@@ -15,15 +15,8 @@ const DeckComponent = ({navigation}) => {
   const handleOnSwipedTop = () => useSwiper.swipeTop()
   const handleOnSwipedRight = () => useSwiper.swipeRight()
 
-  /*const newLog = (card_index)=>{
-    console.log(card_index)
-    console.log(finalDeck[card_index].description)
-  }
-  const newLog2 = ()=>{console.log('My log')}*/
-  //const tempData = photoCards;
   const cardsData = navigation.state.params.cardsDataTemp;
   const finalDeck = navigation.state.params.finalDeckTemp;
-  //console.log(navigation.state.params.randomize);
   const goHome = () => {
     navigation.replace(
       'Home', {cardsDataTemp: cardsData});

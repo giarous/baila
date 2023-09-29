@@ -1,0 +1,4 @@
+#Thu Feb 04 09:30:59 CET 2021
+base.0=/home/rus/TBaila/android/app/build/intermediates/dex/debug/out/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

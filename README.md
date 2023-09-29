@@ -7,7 +7,7 @@ A mobile application inspired by the Estonian card game. This app serves as a di
 
 ## License
 
-This app was created as personal challenge and is not affiliated with or endorsed by "Baila". All associated copyrights and trademarks belong to their respective owners. The physical version of the game can be found on their [website](https://www.cocktailgames.com/en/game/top-ten/).
+This app was created as personal challenge and is not affiliated with or endorsed by "Baila". All associated copyrights and trademarks belong to their respective owners. The physical version of the game can be found on their [website](https://www.facebook.com/BailaGames).
 
 ## Screenshots
 

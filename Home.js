@@ -11,7 +11,6 @@
     constructor(props) {
       super(props);
       this.state = {
-        //data: this.props.navigation.state.params.cardsData,
         cardsData: this.props.navigation.state.params.cardsDataTemp,
         finalDeck:[],
       };
@@ -30,9 +29,6 @@
     };
 
     startNewGame = () => {
-      //this.finalizeDeck;
-      //this.props.navigation.navigate(
-        //'NewGame', {cardsDataTemp: this.state.cardsData});
       this.props.navigation.navigate(
       'NewGame', {cardsDataTemp: this.state.cardsData, finalDeckTemp: filteredDeck});
     };
@@ -60,8 +56,7 @@
         for( var j=0;j<4;j++){
           tempArray.push(this.state.cardsData[i]);
         }
-          
-          //console.log(filteredDeck);
+
       }
       filteredDeck=tempArray;
       console.log(filteredDeck);
@@ -71,8 +66,7 @@
     
     componentDidMount() {
       this.shuffle(filteredDeck);
-      //var tempDeck=photoCards;
-      //tempDeck=photoCards.concat(photoCards);
+
       console.log(filteredDeck);
 
       var cover = {name: '', name_ru:'БАЙЛА',

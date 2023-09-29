@@ -7,7 +7,6 @@ import {
 import { ScrollView } from 'react-native-gesture-handler';
 import {photoCards}  from './constants';
 
-//const newData = cardsData;
 const { height } = Dimensions.get('window')
 const image_width = (height-150)*2/3
 const image_height = (height-150)
@@ -24,20 +23,13 @@ export default class DescriptionComponent extends Component<Props> {
       data: this.props.navigation.state.params.cardsDataTemp,
       
     }
-    //this._onChange= this._onChange.bind(this);
   }
     componentDidMount() {
       console.log('Description Page');
-        //this.setState({ data: newData})
       };
 
       buttonPressed= (index) => {
-        //console.log(this.state.checkedData);
-        //const newArray = [...this.state.checkedData];
-        //newArray[index]=!newArray[index];
-        //this.setState({ checkedData: newArray });
-        //console.log(this.state.checkedData);
-        //console.log(this.state.data[0].name);
+
       }
       showDescription = (cardName, cardDescription) =>{
         Alert.alert(
@@ -56,7 +48,6 @@ export default class DescriptionComponent extends Component<Props> {
       };
   
   render() {
-    //const { params } = this.props.navigation.state;
     return (
       <View style={styles.container}>
         <Text style={styles.header}>Cards' Description</Text> 
