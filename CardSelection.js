@@ -49,7 +49,6 @@ export default class CardSelection extends Component<Props> {
         console.log(this.state.data);
         const newArray = [...this.state.data];
         newArray[index].state=!newArray[index].state;
-        //newArray[index].photo=!newArray[index].state;
         this.setState({ data: newArray });
         console.log(this.state.data);
         console.log(this.state.data[index]);
